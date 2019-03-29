@@ -1,0 +1,23 @@
+{
+  "name": "minapp-ticket-my",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "miniprogram": "src",
+  "scripts": {
+    "dev": "yarn && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ifanrx/minapp-ticket-my.git"
+  },
+  "author": "ifanx",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "dependencies": {}
+}

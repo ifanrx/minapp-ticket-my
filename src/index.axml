@@ -1,0 +1,6 @@
+<form class="ticket-reporter" onSubmit="reportTicket" report-submit>
+  <view class="button-wrapper">
+    <button class="button" form-type="submit" onTap="handleTap" />
+    <slot></slot>
+  </view>
+</form>
