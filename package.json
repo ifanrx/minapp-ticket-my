@@ -6,7 +6,6 @@
   "files": [
     "src"
   ],
-  "miniprogram": "src",
   "scripts": {
     "dev": "yarn && gulp"
   },
