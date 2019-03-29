@@ -1,6 +1,6 @@
 <form class="ticket-reporter" onSubmit="reportTicket" report-submit>
   <view class="button-wrapper">
-    <button a:if="{{!disappearAfterClick || !hideButton}}" class="button" form-type="submit" onTap="handleTap" />
+    <button a:if="{{!hideButton}}" class="button" form-type="submit" onTap="handleTap" />
     <slot></slot>
   </view>
 </form>

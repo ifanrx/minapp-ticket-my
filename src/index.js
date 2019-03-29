@@ -19,9 +19,11 @@ Component({
     },
     handleTap: function (e) {
       this.props.onTap && this.props.onTap(e)
-      this.setData({
-        hideButton: true,
-      })
+      if (this.props.disappearAfterClick) {
+        this.setData({
+          hideButton: true,
+        })
+      }
     }
   },
 })
