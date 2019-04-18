@@ -6,7 +6,7 @@ Component({
   },
   methods: {
     reportTicket: function (e) {
-      my.BaaS.reportTicket(e.detail.formId)
+      my.BaaS.reportTicket(e.detail.formId, {enableThrottle: true})
     },
   },
 })

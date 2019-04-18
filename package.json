@@ -1,6 +1,6 @@
 {
   "name": "minapp-ticket-my",
-  "version": "1.0.1-a",
+  "version": "1.0.2",
   "description": "",
   "main": "src/index.js",
   "files": [
